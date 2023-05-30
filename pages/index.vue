@@ -8,18 +8,18 @@
 
 <script>
 export default {
-data() {
-return {
-title: 'Nuxt.js',
-description: 'let`s learning Nuxt.js',
-}
-},
-}
+  data() {
+    return {
+      title: "Nuxt.js",
+      description: "let`s learning Nuxt.js",
+    };
+  },
+};
 </script>
 
 <style>
 .container {
-padding: 30px;
-width:20%;
+  padding: 30px;
+  width: 20%;
 }
 </style>
