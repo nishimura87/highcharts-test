@@ -27,7 +27,8 @@
 }
 
 .chart_con {
-  width:45%;
+  width:40%;
+  max-height:300px;
   margin:1%;
 }
 </style>

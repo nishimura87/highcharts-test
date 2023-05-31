@@ -16,6 +16,7 @@ export default {
           borderColor: 'blue',
           borderRadius: 30,
           borderWidth: 2,
+          height: 300,
         },
         title: {
           text: "Bar Chart",

@@ -16,6 +16,7 @@ export default {
           borderColor: "blue",
           borderRadius: 30,
           borderWidth: 2,
+          height: 300,
         },
         title: {
           text: "Pie Chart",
@@ -39,8 +40,8 @@ export default {
           pie: {
             startAngle: -90,
             endAngle: 90,
-            center: ['50%', '75%']
-          }
+            center: ["50%", "75%"],
+          },
         },
         series: [
           {
@@ -49,7 +50,7 @@ export default {
             data: [20, 40],
           },
         ],
-        colors: ["blue","purple"],
+        colors: ["blue", "purple"],
       };
     },
   },
