@@ -38,9 +38,9 @@ export default {
           max: 100,
         },
         plotOptions: {
-          column: {
-            stacking: "normal",
-          },
+        column: {
+            stacking: 'percent'
+          }
         },
         series: [
           {
@@ -50,7 +50,7 @@ export default {
           },
           {
             showInLegend: false,
-            color: "#fff",
+            color: "transparent",
             data: [60, 70, 80],
             index:0
           },
