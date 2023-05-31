@@ -30,5 +30,9 @@
   width:40%;
   max-height:300px;
   margin:1%;
+    
+    @media screen and (max-width: 768px) {
+      width: 90%;
+    }
 }
 </style>
